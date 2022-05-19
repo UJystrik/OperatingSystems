@@ -1,0 +1,60 @@
+Ml
+6
+2
+2
+    s1 s2 s3 s4 s5 s6
+x1: s3 s4 s3 s4 s1 s2
+    y1 y1 y1 y1 y1 y1
+x2: s5 s6 s5 s6 s3 s4
+    y1 y1 y2 y2 y1 y1
+
+Ml
+6
+2
+2
+    c d e f g h
+x1: e f e f c d
+    a a a a a a
+x2: g h g h e f
+    a a b b a a
+
+Ml
+6
+2
+2
+    â ã ä å æ ç
+x1: ä å ä å â ã
+    à à à à à à
+x2: æ ç æ ç ä å
+    à à á á à à
+
+Ml
+12
+2
+2
+    S1  S2  S3 S4  S5 S6  S7 S8  S9 S10 S11 S12
+x1: S10 S12 S5 S7  S3 S7  S3 S10 S7 S1  S5  S2
+    Y1  Y1  Y2 Y2  Y1 Y2  Y1 Y1  Y2 Y2  Y2  Y2
+x2: S5  S8  S6 S11 S9 S11 S6 S4  S6 S8  S9  S8
+    Y2  Y2  Y1 Y1  Y2 Y1  Y2 Y2  Y1 Y1  Y1  Y1
+
+Ml
+8
+3
+2
+    S1 S2 S3 S4 S5 S6 S7 S8
+x1: S4 S5 S3 S5 S7 S1 S5 S3
+    Y1 Y2 Y2 Y1 Y1 Y1 Y1 Y2
+x2: S2 S1 S5 S8 S2 S3 S3 S5
+    Y2 Y1 Y1 Y2 Y2 Y2 Y2 Y1
+x3: S5 S4 S4 S4 S1 S4 S7 S6
+    Y1 Y2 Y2 Y2 Y1 Y2 Y2 Y2
+
+Mr
+4
+2
+3
+     s1 s2 s3 s4
+     y1 y2 y1 y3
+x1:  s4 s1 s2 s3
+x2:  s2 s3 s4 s2
