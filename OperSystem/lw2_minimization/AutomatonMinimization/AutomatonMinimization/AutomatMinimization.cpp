@@ -98,6 +98,7 @@ std::vector<std::vector<std::string>> AutomatMinimization::MuraInMili(std::vecto
 		num++;
 		classPosition = 2;
 	}
+	ShowTransposition(matricaMili);
 	return matricaMili;
 }
 

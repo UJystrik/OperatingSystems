@@ -1,7 +1,11 @@
 L
 S -> Ab | b
-A -> Sc | c | Aa
+A -> Sc | c
 
 R
-S -> aS | aB | cS | c
+S -> aS | aB | cS |c
 B -> bB | aB | a
+
+L
+S -> Sb | Aa | a | b
+A -> Aa | Sb | a

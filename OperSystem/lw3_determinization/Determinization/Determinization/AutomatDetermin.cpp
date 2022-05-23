@@ -334,13 +334,13 @@ std::vector<std::vector<std::string>> AutomatDetermin::Determine(std::vector<std
 			//WriteThis();
 			int terminalSymbolsNumber = 0;
 			for (std::vector<std::vector<std::string>>::iterator it1 = determineMatrica.begin(); it1 != determineMatrica.end(); ++it1) {
-				if (VectorComparison(terminalSymbolsVec,GetTerminalSymbols(determineMatrica, it1))) {
+				if (it1[0][POSITION_OF_DESIGNATION_OF_REPEATS] != "r" && VectorComparison(terminalSymbolsVec, GetTerminalSymbols(determineMatrica, it1))) {
 					itF[0][0] = it1[0][0];
 					terminalSymbolsNumber++;
-				}
-				if (terminalSymbolsNumber > 1) {
-					determineMatrica[iterationNow][3] = "r";
-					classNum--;
+					if (terminalSymbolsNumber > 1) {
+						classNum--;
+						it1[0][POSITION_OF_DESIGNATION_OF_REPEATS] = "r";
+					}
 				}
 			}
 			iterationNow++;

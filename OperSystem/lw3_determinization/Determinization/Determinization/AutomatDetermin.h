@@ -20,5 +20,8 @@ protected:
 	int terminalStatesNumber = 0;
 	int outSymbol = 0;
 	const int STATES_START_POS = 4;
+	const int TERMINAL_SYMBOL_FIRT_POS = 2;
+	const int FIRST_POSITION_OF_OLD_STATES = 4;
+	const int POSITION_OF_DESIGNATION_OF_REPEATS = 3;
 };
 

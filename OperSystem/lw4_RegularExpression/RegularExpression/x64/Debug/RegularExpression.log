@@ -1,0 +1,5 @@
+﻿  RegularExpressionC.cpp
+D:\Volgatech\Oper_System_1sem\lw4_regylar\RegularExpression\RegularExpression\RegularExpressionC.cpp(42,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Volgatech\Oper_System_1sem\lw4_regylar\RegularExpression\RegularExpression\RegularExpressionC.cpp(64,116): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Volgatech\Oper_System_1sem\lw4_regylar\RegularExpression\RegularExpression\RegularExpressionC.cpp(116,116): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  RegularExpression.vcxproj -> D:\Volgatech\Oper_System_1sem\lw4_regylar\RegularExpression\x64\Debug\RegularExpression.exe
